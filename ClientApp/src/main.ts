@@ -19,4 +19,6 @@ if (environment.production) {
 platformBrowserDynamic(providers).bootstrapModule(AppModule)
   .catch(err => console.log(err));
 
+// https://github.com/angular/angular/issues/34970
+// https://jasontaylor.dev/asp-net-core-angular-9-upgrade/
 // export { renderModule, renderModuleFactory } from '@angular/platform-server';
